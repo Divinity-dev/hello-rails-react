@@ -1,9 +1,29 @@
-import { Application } from "@hotwired/stimulus"
+// import { Application } from "@hotwired/stimulus"
 
-const application = Application.start()
+// const application = Application.start()
 
-// Configure Stimulus development experience
-application.debug = false
-window.Stimulus   = application
+// // Configure Stimulus development experience
+// application.debug = false
+// window.Stimulus   = application
 
-export { application }
+// export { application }
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import App from './App';
+import rootReducer from './reducers';
+
+const store = createStore(rootReducer, applyMiddleware(thunk));
+
+ReactDOM.render(
+  <Provider store={store}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>,
+  document.getElementById('root')
+);
+
