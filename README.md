@@ -60,8 +60,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[generates random greetings]**
 
 
@@ -121,25 +119,25 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: rails server
 
 <!--
 Example command:
 
 ```sh
-  rails server
+ 
 ```
 --->
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command:bin/rails test test/models/article_test.rb
 
 <!--
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  
 ```
 --->
 
@@ -174,7 +172,7 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
+- **[Display messages one at a time]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
