@@ -1,3 +1,5 @@
 class GreetingsApiController < ApplicationController
-  def random; end
+  def index
+    render json: Greeting.find(rand(1..5))
+  end
 end
