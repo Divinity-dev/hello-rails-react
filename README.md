@@ -45,7 +45,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://guides.rubyonrails.org/getting_started.html">ruby on rails</a></li>
   </ul>
 </details>
 
@@ -75,15 +75,8 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: run 'rails server'
+In order to run this project you need: run 'rails server, npm or yarn'
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 

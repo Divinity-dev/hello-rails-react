@@ -15,3 +15,13 @@ export const fetchGreetingSuccess = greeting => {
     greeting
   };
 };
+
+export const fetchRandomGreeting = () => {
+  return dispatch => {
+    fetch('/api/messages/random_greeting')
+      .then(response => response.json())
+      .then(data => dispatch(fetchGreetingSuccess(data.greeting)))
+      .catch(error => console.error(error));
+  };
+};
+
