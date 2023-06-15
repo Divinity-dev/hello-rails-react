@@ -1,24 +1,220 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 📗 Table of Contents
 
-Things you may want to cover:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-* Ruby version
+<!-- PROJECT DESCRIPTION -->
 
-* System dependencies
+# 📖 [hello_rails_react] <a name="about-project"></a>
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+**[hello_rails_react]** is a simple greetings app. It generates random greetings
 
-* How to run the test suite
+## 🛠 Built With <a name="built-with"></a>
 
-* Services (job queues, cache servers, search engines, etc.)
+### Tech Stack <a name="tech-stack"></a>
 
-* Deployment instructions
 
-* ...
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[generates random greetings]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need: run 'rails server'
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:https://github.com/Divinity-dev/hello-rails-react.git
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using: render
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Divine Asiriuwa**
+
+- GitHub: [@Divinity-dev](https://github.com/Divinity-dev)
+- LinkedIn: [Divine Asiriuwa](https://www.linkedin.com/in/divinity20/)
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Divinity-dev/hello-rails-react/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+
+If this project interests you, you can contribute at 'https://github.com/Divinity-dev/hello-rails-react'
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+
+I would like to thank the microverse team for the inspiration for the work.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

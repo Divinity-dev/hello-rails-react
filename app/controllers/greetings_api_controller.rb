@@ -1,4 +1,3 @@
 class GreetingsApiController < ApplicationController
-  def random
-  end
+  def random; end
 end
