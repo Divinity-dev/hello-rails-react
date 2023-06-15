@@ -106,7 +106,7 @@ Example commands:
 
 ### Install
 
-Install this project with:npm install
+Install this project with:npm install, bundle install
 
 <!--
 Example command:
